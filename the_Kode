@@ -1,0 +1,29 @@
+// basic _input_output
+// @author tehwabb1t
+
+import java.util.Scanner;
+
+class Main {
+public static void main(String[] args) {
+String kusauth1 = "This almost fantastic teeny piece of code was brought to you by ";
+String kusauth2 = "github.com/tehwabb1t";
+
+
+// starting the magic 
+Scanner AbraCaDaBra=new Scanner(System.in);
+  
+//first name data intake
+System.out.println ("Please Enter your first name.");
+String fname = AbraCaDaBra.nextLine();
+  
+//witty description data intake 
+System.out.println ("Please type something witty here.");
+String wdesc= AbraCaDaBra.nextLine();
+  
+//output
+System.out.println ("This here is "+fname);
+System.out.println ("They solely believe that "+wdesc);
+System.out.println (kusauth1+kusauth2);
+}}
+
+// end of code 
